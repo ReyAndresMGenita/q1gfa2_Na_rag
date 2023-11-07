@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menubar {
+    width: 100vw;
+    height: 10vh;
+    background-color: grey;
+}
+.links a{
+    color: black;
+    text-decoration: none;
+    float: right;
+    margin-top: 1vh;
+    margin-right: 1vh;
+}
+.logo{
+    color: black;
+    float: left;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.logo img{
+    width: 30px;
+    color: black;
+    float: left;
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.menubar .links a{
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 5vh;
+    padding-right: 1vw;
+    margin: 5px;
+    border: 0px solid black;
+    opacity: .6;
+    transition: 0.2s;
+}
+.menubar .links a:hover{ opacity: 1; transition: 0.4s;
+    background-color: gray; color: black;
+    background-color: gray; color: black;
+}
+
+
+
+.banner{
+    padding: 10px;
+    background-image: url(pic2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98.5vw;
+    height: 100vh;
+}
+
+.banner p,h4{color: black;}
+.banner a{
+    border: 1px solid black;
+    margin: 1px;
+    padding: 2px;
+    text-align: right;
+    background-color: grey; 
+}
+span{ color: crimson;}
+
+
+.links a{
+    color: black;
+    text-decoration: none;
+    float: right;
+    margin-top: 1vh;
+    margin-right: 5vw;
+}
+.gallary{
+    text-align: center;
+}
+.gallary img{
+    height: 150px;
+    margin: 10px;
+}
+
+.footer{
+    overflow: hidden;
+   background-color: gray;
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer a{
+    float: right;
+    display: block;
+    background: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
